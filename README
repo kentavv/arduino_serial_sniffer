@@ -1,4 +1,6 @@
 This tool sniffs RS232 serial traffic using an Arduino and an RS232 transceiver. The Maxim MAX208E is the tested transceiver chip and converts the voltage levels from RS232 levels to 5V logic levels. The multiple hardware serial lines of the Arduino Mega 2560 allows both the RX and TX lines to be simultaneously captured. The captured data is then formatted and forwarded to the sniffing computer via the Arduino USB port.
 
+To help use the hardware sniffer, reader.py can be used to read the output from the Arduino. Each time the reset button is pressed on the Arduino, a frame is created. Each completed frame is saved to a text file and when at least two frames have been saved, the most recent two frames are comppared using meld.
+
 https://en.wikipedia.org/wiki/RS-232
 https://www.maximintegrated.com/en/products/interface/transceivers/MAX208E.html
