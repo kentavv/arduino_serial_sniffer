@@ -1,2 +1,2 @@
-The purpose of this tool is sniff RS232 serial traffic using an Arduino and one of the Maxim MAX232 interface chips. The MAX232 chip converts the voltage levels and the multiple hardware serial lines of the Arduino Mega 2560 allows both the RX and TX lines to be simultaneously captured. The captured data is then formatted and forwarded to the sniffing computer.
+This tool sniffs RS232 serial traffic using an Arduino and a Maxim MAX232 interface chip. The MAX232 chip converts the voltage levels and the multiple hardware serial lines of the Arduino Mega 2560 allows both the RX and TX lines to be simultaneously captured. The captured data is then formatted and forwarded to the sniffing computer via the Arduino USB port.
 
