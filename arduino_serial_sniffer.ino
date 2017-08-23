@@ -28,10 +28,13 @@
  */
 
 
-// The UART pins on the Arduinos work with 5V or 3.3V TTL levels only.
 // The first UART (object Serial) is connected to the USB serial.
 // The Mega 2560 has four serial UARTS, Serial, Serial1, ... Serial3
 // If there is insufficient number of UART pins, one could try SoftwareSerial
+//
+// Warning: The UART pins on the Arduinos work with 5V or 3.3V TTL levels only.
+// For RS232 voltage levels, use an RS232 transceiver with at least two
+// receivers, such as the Maxim MAX208E.
 
 
 void setup() {
